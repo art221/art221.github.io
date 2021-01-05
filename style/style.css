@@ -1,0 +1,28 @@
+.content {
+	height: 1000px;
+	background-color: #3cc983;
+	width: 1200px;
+	margin: 0 auto;
+}
+.row {
+	display: flex;
+}
+.row .box {
+	margin: 10px;
+	width: 100px;
+	background-color: #457506;
+	height: 100px;
+}
+.col-1 {
+	flex-grow: 1;
+}
+.col-3 {
+	flex-grow: 6;
+}
+h1{
+	text-align:center;
+	font-family: 'Source Code Pro', monospace;
+}
+.col-4 {
+	flex-grow: 25;
+}
